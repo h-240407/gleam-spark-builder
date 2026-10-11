@@ -13,3 +13,4 @@
 - Keep the landing page at `/` and learning demo screens under `/workspace/$section` so each navigation destination has a reloadable URL.
 - Keep this reference recreation frontend-only with clearly labeled demo interactions; add managed persistence only when real account or data functionality is requested.
 - Define shared visual styles and semantic colors in `src/styles.css` to preserve reference consistency across screens.
+- Pre-optimize shared frontend dependencies and reject outdated optimizer requests so a live preview cannot mix React module generations after dependency discovery.
